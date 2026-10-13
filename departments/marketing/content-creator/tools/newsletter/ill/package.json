@@ -1,0 +1,9 @@
+{
+  "name": "newsletter-illustrations",
+  "private": true,
+  "description": "Fluent Emoji（Microsoft・MIT）でニュースレターの挿絵を書き出す",
+  "dependencies": {
+    "@fontsource/m-plus-rounded-1c": "5.1.0",
+    "@iconify-json/fluent-emoji": "1.2.3"
+  }
+}

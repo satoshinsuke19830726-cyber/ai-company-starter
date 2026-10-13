@@ -1,0 +1,9 @@
+# 個人情報・他社ロゴを含む画像（extract_assets.py で合格版Wordから取り出す）
+assets/card.png
+assets/yawaragi_logo.png
+assets/megumi.png
+assets/masthead_*.png
+assets/telbanner.png
+assets/strip.png
+fit/
+ill/node_modules/
