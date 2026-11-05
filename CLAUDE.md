@@ -41,6 +41,8 @@ AI社員1人＝1フォルダ。中身はいつも同じ3つです。
 | 商品 | プロダクトビルダー | `departments/product/product-builder/` |
 | 販売 | セールスライター | `departments/sales/sales-writer/` |
 
+コンテンツクリエイターは有料note用に `skills/02-paid-note-evidence-review/`（有料note）と `skills/03-morning-literature-pick/`（朝の文献候補）も持っています。
+
 どの社員も `skills/01-*/SKILL.md`・`knowledge/quality-bar.md`・`knowledge/feedback.md`・`output/` を持っています。
 
 ## コマンド（`.claude/commands/`）
@@ -50,6 +52,8 @@ AI社員1人＝1フォルダ。中身はいつも同じ3つです。
 | `/kickoff` | 会社の立ち上げ（`knowledge/company-profile.md` の `TBD` を対話で埋める） |
 | `/staff` | AI社員7人と頼めることの一覧 |
 | `/shigoto <依頼>` | 担当AI社員を選んで実行し、その社員の `output/` へ保存 |
+| `/asa` | 朝の文献候補（有料note用のSR/MAを3〜5本提示） |
+| `/yuryo-note <依頼>` | 有料note（SR/MA解説）を進める（確認シート→本文→仕上げ） |
 
 コマンドを使わない普通の依頼も、同じ手順（上の「依頼が来たら」）で処理してください。
 
