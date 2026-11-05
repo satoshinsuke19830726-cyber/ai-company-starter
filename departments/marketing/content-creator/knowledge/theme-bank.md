@@ -43,3 +43,9 @@
 
 | 初出日 | 領域 | 論文（著者 年 誌名） | リンク | メモ |
 |---|---|---|---|---|
+| 2026-11-05 | 怪我の管理／ジム | Cholp & Zemková 2025 Front Physiol（NHE高量vs低量）＋ Al Attar WSA 2017 Sports Med | DOI 10.3389/fphys.2025.1631205／PMID 27752982 | 前日のおすすめ。原著無料 |
+| 2026-11-05 | 怪我の管理 | Qin W et al. 2025 BMC Sports Sci Med Rehabil（ACWRのSR/MA） | PMID 41029871 | 方法論の学び大 |
+| 2026-11-05 | フィットネス | 鍛錬者サッカー選手の試合後冷水浸漬MA 2026（著者は要確認） | PMC12767754 | 予測区間を学べる |
+| 2026-11-05 | リハビリ | Losciale JM et al. 2019 JOSPT（復帰基準合格と2回目のACL損傷）＋ Piussi 2024 | PMID 30501385 | |
+| 2026-11-05 | ジム | Zhang 2022 Int J Sports Med（VBT vs %1RM）＋ Liao 2021 PLoS ONE | DOI 10.1055/a-1790-8546 | 結論の違う2本を比較 |
+| 2026-11-05 | 怪我の管理 | FIFA 11+ と足関節損傷のSR/MA 2025 Muscles | PMC12371935 | 予備 |
