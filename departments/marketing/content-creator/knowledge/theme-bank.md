@@ -49,3 +49,8 @@
 | 2026-11-05 | リハビリ | Losciale JM et al. 2019 JOSPT（復帰基準合格と2回目のACL損傷）＋ Piussi 2024 | PMID 30501385 | |
 | 2026-11-05 | ジム | Zhang 2022 Int J Sports Med（VBT vs %1RM）＋ Liao 2021 PLoS ONE | DOI 10.1055/a-1790-8546 | 結論の違う2本を比較 |
 | 2026-11-05 | 怪我の管理 | FIFA 11+ と足関節損傷のSR/MA 2025 Muscles | PMC12371935 | 予備 |
+| 2026-11-06 | フィットネス | Li S et al. 2026 BMC Sports Sci Med Rehabil（HIIT・SSGほかのネットワークMA） | PMID 41888910 | 前日のおすすめ。原著無料 |
+| 2026-11-06 | トレーニング（育成） | Zhang F et al. 2026 BMC Sports Sci Med Rehabil（育成年代 HIIT vs SSG） | PMID 42121184 | 上と2本立ても可 |
+| 2026-11-06 | リハビリ | Colombo V et al. 2024 Am J Sports Med（ACL術後のBFR・SR） | PMID 38591459 | MAなしのSR |
+| 2026-11-06 | ジム／リハビリ | Pavlova AV et al. 2023 Br J Sports Med（腱障害の筋トレ量） | PMID 37169370 | メタ回帰 |
+| 2026-11-06 | リハビリ | Lopes AD et al. 2025 Cochrane（膝蓋腱障害の運動療法） | PMID 40421598 | 確実性 非常に低い |
