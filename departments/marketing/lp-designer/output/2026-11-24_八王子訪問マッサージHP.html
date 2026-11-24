@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>八王子の訪問マッサージ｜健康保険適用・初回無料体験｜アトラス合同会社</title>
+<title>八王子の訪問マッサージ・鍼灸｜健康保険適用・初回無料体験｜アトラス合同会社</title>
 <meta name="description" content="八王子市・日野市の一部でご自宅や施設へ伺う訪問マッサージ。健康保険が使え、医師の同意書の手続きも代行します。初回1回無料体験。川口・楢原・上川・恩方・元八王子・長房・横川など八王子市全域に対応。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +15,7 @@
   "name": "アトラス合同会社",
   "description": "八王子市の訪問マッサージ（健康保険適用）",
   "telephone": "070-1524-0101",
+  "logo": "images/atlas-logo.png",
   "faxNumber": "042-633-2783",
   "email": "shinsuke19830726@yahoo.co.jp",
   "foundingDate": "2020",
@@ -37,9 +38,9 @@
 </script>
 <style>
 :root{
-  --green:#3f7d5a; --green-d:#2c5c41; --green-l:#e7f1ea;
+  --green:#3f9b35; --green-d:#27702a; --green-l:#eaf5e1;
   --cream:#fbf8f2; --ink:#2b2b2b; --sub:#5e5e5e; --line:#e2ddd2;
-  --accent:#e08a3c; --white:#fff;
+  --accent:#d9362b; --white:#fff;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -57,7 +58,8 @@ h3{font-size:1.2rem;line-height:1.5}
 /* header */
 header{position:sticky;top:0;z-index:10;background:rgba(251,248,242,.96);border-bottom:1px solid var(--line)}
 .hd{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 20px;max-width:1040px;margin:0 auto}
-.logo{font-size:1.15rem;font-weight:700;color:var(--green-d);text-decoration:none;line-height:1.3}
+.logo{display:flex;align-items:center;gap:8px;font-size:1.15rem;font-weight:700;color:var(--green-d);text-decoration:none;line-height:1.3}
+.logo img{width:44px;height:44px;object-fit:contain}
 .logo small{display:block;font-size:.72rem;color:var(--sub);font-weight:500}
 nav ul{display:flex;gap:20px;list-style:none;font-size:.92rem}
 nav a{text-decoration:none;color:var(--ink)}
@@ -69,7 +71,7 @@ nav a{text-decoration:none;color:var(--ink)}
 .hero-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
 .hero .kicker{display:inline-block;background:var(--white);border:1px solid var(--green);color:var(--green-d);border-radius:999px;padding:2px 14px;font-size:.88rem;font-weight:700}
 .hero h1{font-size:2.3rem;line-height:1.45;margin:16px 0}
-.hero h1 em{font-style:normal;color:var(--green-d);background:linear-gradient(transparent 65%,#f6d9b8 65%)}
+.hero h1 em{font-style:normal;color:var(--green-d);background:linear-gradient(transparent 62%,#fdf1a8 62%)}
 .hero p.lead{color:var(--sub);margin-bottom:24px}
 .badges{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px;list-style:none}
 .badges li{background:var(--white);border-radius:10px;padding:8px 14px;font-weight:700;font-size:.92rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
@@ -77,7 +79,7 @@ nav a{text-decoration:none;color:var(--ink)}
 .cta-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
 .tel-big{font-size:1.25rem;padding:14px 28px}
 .cta-note{font-size:.88rem;color:var(--sub)}
-.hero-illust{aspect-ratio:1/1;border-radius:50%;background:var(--white);display:flex;align-items:center;justify-content:center;box-shadow:0 8px 30px rgba(63,125,90,.15)}
+.hero-illust{aspect-ratio:1/1;border-radius:50%;background:var(--white);display:flex;align-items:center;justify-content:center;box-shadow:0 8px 30px rgba(63,155,53,.18);overflow:hidden}
 
 /* cards */
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
@@ -174,7 +176,7 @@ footer strong{color:#fff}
 
 <header>
   <div class="hd">
-    <a href="#top" class="logo">アトラス合同会社<small>八王子の訪問マッサージ</small></a>
+    <a href="#top" class="logo"><img src="images/atlas-logo.png" alt="アトラス合同会社ロゴ"><span>アトラス合同会社<small>八王子の訪問鍼灸マッサージ</small></span></a>
     <nav aria-label="メニュー">
       <ul>
         <li><a href="#service">施術内容</a></li>
@@ -195,8 +197,8 @@ footer strong{color:#fff}
   <div class="wrap hero-grid">
     <div>
       <span class="kicker">八王子市・日野市の一部に対応</span>
-      <h1>八王子の訪問マッサージ<br><em>ご自宅で、もう一度</em><br><em>「できる」を一緒に。</em></h1>
-      <p class="lead">通院が難しい方のご自宅や施設へ、国家資格を持つ施術者が伺います。健康保険が使え、医師の同意書の手続きもこちらで代行します。</p>
+      <h1>八王子の訪問マッサージ<br><em>支える力で、</em><br><em>動ける毎日へ。</em></h1>
+      <p class="lead">訪問専門の鍼灸マッサージです。通院が難しい方のご自宅や施設へ、国家資格を持つ施術者が伺います。健康保険が使え、医師の同意書の手続きもこちらで代行します。</p>
       <ul class="badges">
         <li>健康保険が使えます</li>
         <li>交通費は保険に含みます</li>
@@ -208,20 +210,7 @@ footer strong{color:#fff}
         <span class="cta-note">受付 9:00〜18:00（土日・時間外もご相談ください）</span>
       </div>
     </div>
-    <div class="hero-illust" aria-hidden="true">
-      <!-- イラスト仮置き：名刺のデザインに合わせて差し替え -->
-      <svg viewBox="0 0 200 200" width="70%" role="img" aria-label="">
-        <circle cx="100" cy="100" r="92" fill="#e7f1ea"/>
-        <path d="M40 150 Q100 120 160 150 L160 170 L40 170Z" fill="#cfe2d6"/>
-        <rect x="52" y="118" width="96" height="22" rx="11" fill="#ffffff" stroke="#3f7d5a" stroke-width="3"/>
-        <circle cx="70" cy="108" r="13" fill="#f3d6bd"/>
-        <circle cx="122" cy="72" r="15" fill="#f3d6bd"/>
-        <path d="M108 90 Q122 84 136 90 L140 118 L104 118Z" fill="#3f7d5a"/>
-        <path d="M110 104 Q96 112 86 120" stroke="#3f7d5a" stroke-width="7" stroke-linecap="round" fill="none"/>
-        <path d="M134 104 Q140 114 132 122" stroke="#3f7d5a" stroke-width="7" stroke-linecap="round" fill="none"/>
-        <path d="M150 54 q6-10 12 0 q6 10-6 18 q-12-8-6-18z" fill="#e08a3c"/>
-      </svg>
-    </div>
+    <div class="hero-illust"><img src="images/sato-illust.png" alt="代表 佐藤信助のイラスト" style="width:52%;margin-top:24%"></div>
   </div>
 </section>
 
@@ -305,10 +294,7 @@ footer strong{color:#fff}
     <span class="sec-label">STAFF</span>
     <h2>施術者のご紹介</h2>
     <div class="profile">
-      <div class="avatar" aria-hidden="true">
-        <!-- 似顔絵イラストに差し替え -->
-        <svg viewBox="0 0 120 120" width="70%"><circle cx="60" cy="46" r="24" fill="#f3d6bd"/><path d="M36 40 Q60 10 84 40 Q80 26 60 24 Q40 26 36 40Z" fill="#4a4036"/><path d="M20 112 Q60 70 100 112Z" fill="#3f7d5a"/></svg>
-      </div>
+      <div class="avatar" style="overflow:hidden;align-items:flex-end"><img src="images/sato-illust.png" alt="代表 佐藤信助のイラスト" style="width:68%"></div>
       <div>
         <h3>代表　佐藤 信助</h3>
         <p class="quote">地域の方の体の悩みに、スポーツ現場で培った経験を活かしたい。そう思って訪問マッサージを始めました。<br>
@@ -398,6 +384,7 @@ footer strong{color:#fff}
       <span>受付時間</span><span>9:00〜18:00（時間外もご相談ください）</span>
       <span>施術時間</span><span>9:00〜17:00（時間外もご相談ください）</span>
       <span>定休日</span><span>土曜・日曜（ご相談ください）</span>
+      <span>携帯</span><span><a href="tel:09042016032">090-4201-6032</a></span>
       <span>FAX</span><span>042-633-2783</span>
       <span>メール</span><span><a href="mailto:shinsuke19830726@yahoo.co.jp">shinsuke19830726@yahoo.co.jp</a></span>
     </div>
@@ -408,7 +395,7 @@ footer strong{color:#fff}
 
 <footer>
   <div class="wrap">
-    <p><strong>アトラス合同会社</strong>（訪問マッサージ）</p>
+    <p><img src="images/atlas-logo.png" alt="" style="width:64px;background:#fff;border-radius:50%;padding:4px;vertical-align:middle;margin-right:10px"><strong>アトラス合同会社</strong>（訪問鍼灸マッサージ）</p>
     <p>〒193-0801 東京都八王子市川口町1373-14<br>TEL 070-1524-0101／FAX 042-633-2783</p>
     <p class="mission">スポーツが身近にある世界へ ― 体を動かすことで、毎日の憂いを少しでも軽く。</p>
     <p>© 2026 アトラス合同会社</p>
